@@ -20,7 +20,7 @@ There is no code in that file. Just what I planned to do with the analysis. I wr
 
 ### The Code
 
-Next look at the file "EPE Analysis- Full conference and By Date.ipynb"  
+Next look at the file "EP3 Analysis- Full conference and By Date.ipynb"  
 That is the file where I actually did the analysis. In the plan I mention that I am going to perform the analyses on each session, but for now I have only done it for the East and West conference in full, and for each of the three days. If there is interest, I'll do it by session analysis. Let me know via twitter [@CodyWeisbach](http://twitter.com/codyweisbach) if you are interested in seeing it.  
 
 Since I'm assuming that you're not familiar with reading code, I've tried to be reasonably clear with what I'm doing each step along the way. If you have any questions about what I did, how I did it, etc contact me on twitter and I can try to help out.  
