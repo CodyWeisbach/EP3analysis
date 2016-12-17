@@ -7,67 +7,27 @@ I was involved in live tweeting the event and it seemed like the twitter world w
 
 Based on that interest, I want to do a post-conference analysis to summarize the twitter social media response. Therefore, I have collected all the tweets with the ep3east hashtag and stored them in a database.  
 
+## How to Look at This  
 
-Like any analysis, it’s best to share what you intend to do before you do it, so the those looking at the results can be confident that there is no cherry picking going on.  
+This analysis is directed towards PT's, which means that you are probably not used to looking at github or code, so I want to provide a little direction.  
 
-## The Plan 
+Above you will see several files. Here is how I would recommend going through the files.  
 
-I thought it would be interesting to look at similar metrics for different time periods.
+### The Plan
 
-**Full Conference**
+Start with the "EP3 Analysis Plan.md"  
+There is no code in that file. Just what I planned to do with the analysis. I wrote it because it's good practice to come up with a plan and execute on that plan when looking at data.  
 
-The first time period is all of the tweets for the conference as a whole.
- 
-**By Day**
+### The Code
 
-Analyzing tweets on each day of the conference. 
- 
-* Day 1- December 2, 2016  
-* Day 2- December 3, 2016  
-* Day 3- December 4, 2016
+Next look at the file "EPE Analysis- Full conference and By Date.ipynb"  
+That is the file where I actually did the analysis. In the plan I mention that I am going to perform the analyses on each session, but for now I have only done it for the East and West conference in full, and for each of the three days. If there is interest, I'll do it by session analysis. Let me know via twitter [@CodyWeisbach](http://twitter.com/codyweisbach) if you are interested in seeing it.  
 
-**By Session**
+Since I'm assuming that you're not familiar with reading code, I've tried to be reasonably clear with what I'm doing each step along the way. If you have any questions about what I did, how I did it, etc contact me on twitter and I can try to help out.  
 
-The tweets for each session of the conference.   
+### The Charts
 
-The times here will be based on when the [@noigroup](https://twitter.com/noigroup) account tweeted out the start of the day, start of break or lunch, return from break or lunch, and the end of the day. Sessions will be separated out as follows.  
+The remaining files are the charts that were made from the analyses above. All of the charts here are present in the main code document but they are saved individually for easier viewing.  
 
-* Day 1: Start to the end of morning break
-* Day 1: End of morning break to end of lunch
-* Day 1: End of lunch to end of afternoon break
-* Day 1: End of afternoon break to an hour after the end of the day
-* An Hour after Finish of Day 1 to Start of Day 2
-* Day 2: Start to the end of morning break
-* Day 2: End of morning break to end of lunch
-* Day 2: End of lunch to end of afternoon break
-* Day 2: End of afternoon break to an hour after the end of the day
-* Finish of Day 2 to Start of Day 3
-* Day 3: Start to the end of morning break
-* Day 3: End of morning break to end of lunch
-* Day 3: End of lunch to end of afternoon break
-* Day 3: End of afternoon break to an hour after the end of the day
-* Finish of the conference to when data collection stopped
+### Hope you find this interesting!
 
-##Planned Analyses 
-
-
-For each of these time periods, I will analyze the following.
-
-**Total Number of tweets**  
-The total Number of tweets per time period  
-
-**Total Number tweets of favorited**  
-The total number of tweets favorited in each time period
-
-**Total Number of tweets retweeted**  
-The total number of tweets that were retweeted for each time period
-
-**Most important tweets**  
-The most important tweets for each time period (which I will define as highest number of retweets + favorites) will be listed. Included will be...   
-
-* The Top 10 tweets from the conference
-* The Top 5 tweets from each day
-* The Top tweet from each session
-
-**Most tweeted terms**  
-For the full conference and for each day, the most tweeted terms will be presented in a word cloud. 
